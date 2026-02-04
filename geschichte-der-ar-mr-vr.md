@@ -57,7 +57,7 @@ footer: '[zurück zur Agenda](#agenda--lernziele)'
 - **1862:** Geisterhafte Projektionstäuschung (Henry Dircks & John Henry Pepper „Pepper's Ghost“)
 - **1960er:** Anfänge der VR (Ivan Sutherland „The Ultimate Display“)
 - **1980er:** Erste Systeme & Interaktion
-    „Jaron Lanier“ prägt den Begriff VR
+    - „Jaron Lanier“ prägt den Begriff VR
 - **Ende 1980er / Anfang 1990er:** Technologische Meilensteine & erste komplexe VR-Anwendungen
 
 

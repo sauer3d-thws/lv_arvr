@@ -66,8 +66,10 @@ Das Verständnis der Schnittstelle zwischen technischer Stimulation und neurobio
 
 ---
 <!-- _class: img-right -->
+
 # Begriffserklärung: Immersion
 > **Immersion** (dt. Eintauchen) beschreibt den Effekt, bei dem ein Nutzer die physische Realität um sich herum vergisst und eine virtuelle Welt als real wahrnimmt. Es ist das Gefühl, "wirklich dort" zu sein.
+
 ![Image](img/Gemini_Generated_Image_boqjfwboqjfwboqj.png)
 
 
@@ -81,8 +83,10 @@ Virtual Reality (VR) ist die Induzierung eines gezielten Verhaltens in einem Org
 
 ---
 <!-- _class: img-right -->
+
 # Begriffserklärung: HMD
 > **HMD** steht für "Head-Mounted Display". Das ist der Fachbegriff für die VR-Brille, die man sich auf den Kopf setzt, um das Display direkt vor den Augen zu haben.
+
 ![Image](img/Quest3.webp)
 
 ---
@@ -109,16 +113,19 @@ In der Geovisualisierung umfasst dies:
 
 ---
 <!-- _class: img-right -->
+
 # Die zweite Komponente: Der Organismus
 VR adressiert biologische Systeme, primär den Menschen [LaValle, 2019].
 
 In der Forschung wird VR auch bei Mäusen (virtuelle Labyrinthe) oder Primaten eingesetzt, um neurobiologische Prozesse der räumlichen Orientierung zu untersuchen [LaValle, 2019].
 
 Für uns bedeutet dies: Wir müssen die physiologischen Parameter des menschlichen Nutzers als feste Randbedingungen unseres Designs akzeptieren.
+
 ![Image](img/MouseGoggles.avif)
 ###### <a href="[#](https://www.n-tv.de/mediathek/videos/panorama/Neurologen-setzen-Maus-Mini-VR-Brille-auf-article25490763.html)">VR bei Mäusen</a>
 
 ---
+
 <style scoped>
 section {
     padding: 0 !important;       /* Entfernt die Ränder der Folie */
@@ -157,6 +164,7 @@ Dies führt zum Gefühl der **Presence** – das Gefühl, physisch in der virtue
 
 ---
 <!-- _class: img-right -->
+
 # Neurobiologie der Presence
 Neurobiologisch manifestiert sich Presence in der Aktivierung von „Place Cells“ und „Grid Cells“.
 
@@ -175,14 +183,17 @@ Warum ist LaValles Definition so breit gefasst, dass sie nicht einmal Hardware w
 
 ---
 <!-- _class: structural -->
+
 # Das Reality-Virtuality-Kontinuum
 
 ---
 <!-- _class: img-right -->
+
 # RV-Kontinuum nach Milgram und Kishino
 Nach Milgram und Kishino (1994) existiert eine Skala zwischen der physischen Realität und der rein virtuellen Umgebung [Mulders et al., 2020].
 
 Das Kontinuum wird oft als Pfeil dargestellt, auf dem sich verschiedene Technologien einordnen lassen. Dieses Modell hilft uns zu entscheiden, wie viel Realitätsbezug für eine spezifische Visualisierungsaufgabe notwendig ist.
+
 ![Image](img/Moulders-Fig1-reality-virtuality-continuum.jpg)
 ###### Moulders-Fig1-reality-virtuality-continuum
 ---
@@ -231,6 +242,7 @@ Die Strategie muss sich nach der notwendigen kognitiven Verbindung zur realen Um
 
 ---
 <!-- _class: img-right-->
+
 # Übergang von 3D-Modellen zur Immersion
 Klassische 3D-Modellierung am Monitor ist "Window-on-the-World" (niedrige Immersion).
 
@@ -240,6 +252,7 @@ VR transformiert diese Modelle in bewohnbare Räume. Dies verändert die Art der
 
 ---
 <!-- _class: structural-->
+
 # Die I3-Definition nach Burdea
 Virtual Reality wird durch die drei Säulen des "VR-Dreiecks" charakterisiert [Mulders et al., 2020]:
 
@@ -297,10 +310,11 @@ Die Simulation des räumlichen Hörens (Richtungshören) über Kopfhörer, um ei
 > **Binaurales Audio** ist eine Aufnahmetechnik, die es ermöglicht, Töne so wahrzunehmen, als kämen sie aus einer bestimmten Richtung im Raum (links, rechts, hinten, oben). Es imitiert das menschliche Hören.
 
 ---
+
 **Kernaspekte**
-*   **Immersion & Präsenz:** Binaurales Audio ist essenziell, um das Gefühl zu erzeugen, tatsächlich an einem Ort zu sein (Präsenz).
-*   **Selektive Aufmerksamkeit:** Ermöglicht den "Cocktail-Party-Effekt", d.h. die Fähigkeit, sich auf eine bestimmte Schallquelle in einer lauten Umgebung zu konzentrieren.
-*   **Cross-modale Interaktion:** Akustische Hinweise lenken den visuellen Fokus und beschleunigen die Reaktionszeit auf visuelle Ziele.
+-   **Immersion & Präsenz:** Binaurales Audio ist essenziell, um das Gefühl zu erzeugen, tatsächlich an einem Ort zu sein (Präsenz).
+-   **Selektive Aufmerksamkeit:** Ermöglicht den "Cocktail-Party-Effekt", d.h. die Fähigkeit, sich auf eine bestimmte Schallquelle in einer lauten Umgebung zu konzentrieren.
+-   **Cross-modale Interaktion:** Akustische Hinweise lenken den visuellen Fokus und beschleunigen die Reaktionszeit auf visuelle Ziele.
 
 ---
 <!-- _class: img-right-->
@@ -319,9 +333,10 @@ Das Gehirn berechnet die Position einer Schallquelle aus der Analyse der Signale
 
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_7jpc7r7jpc7r7jpc.png)
+
 *Ohne spektrale Cues entsteht der "Kegel der Verwirrung" (Cone of Confusion), in dem Positionen mehrdeutig sind .*
 
+![Image](img/Gemini_Generated_Image_7jpc7r7jpc7r7jpc.png)
 ---
 
 <!-- _class: fullscreen -->
@@ -335,15 +350,15 @@ Das Gehirn berechnet die Position einer Schallquelle aus der Analyse der Signale
 
 **Realisierung**
 
-*   **HRTF-Filterung:** Um eine virtuelle Schallquelle zu platzieren, wird das Audiosignal mit der HRTF gefaltet, die der gewünschten Position entspricht.
-*   **Head-Tracking:** Essenziell für die Externalisierung (Wahrnehmung außerhalb des Kopfes). Kopfbewegungen helfen dem Gehirn, den "Kegel der Verwirrung" aufzulösen und die Position zu fixieren.
+-   **HRTF-Filterung:** Um eine virtuelle Schallquelle zu platzieren, wird das Audiosignal mit der HRTF gefaltet, die der gewünschten Position entspricht.
+-   **Head-Tracking:** Essenziell für die Externalisierung (Wahrnehmung außerhalb des Kopfes). Kopfbewegungen helfen dem Gehirn, den "Kegel der Verwirrung" aufzulösen und die Position zu fixieren.
 
 ---
 
 **Herausforderungen**
-*   **Individualisierung:** Standard-HRTFs passen nicht zu jeder Ohrmuschelform, was zu Lokalisierungsfehlern (z.B. Vorne-Hinten-Vertauschung) führen kann.
-*   **Raumakustik:** Für eine glaubhafte Distanzwahrnehmung müssen auch Nachhall und Reflexionen simuliert werden.
-*   **Rechenlast:** Die Echtzeit-Faltung (Convolution) mehrerer Quellen erfordert hohe Rechenleistung.
+-   **Individualisierung:** Standard-HRTFs passen nicht zu jeder Ohrmuschelform, was zu Lokalisierungsfehlern (z.B. Vorne-Hinten-Vertauschung) führen kann.
+-   **Raumakustik:** Für eine glaubhafte Distanzwahrnehmung müssen auch Nachhall und Reflexionen simuliert werden.
+-   **Rechenlast:** Die Echtzeit-Faltung (Convolution) mehrerer Quellen erfordert hohe Rechenleistung.
 
 ---
 
@@ -363,6 +378,7 @@ Das Gehirn berechnet die Position einer Schallquelle aus der Analyse der Signale
 
 ---
 <!-- _class: structural-->
+
 # Biologische Zielplattform: Der Organismus
 Der Erfolg von Perception Engineering hängt fundamental davon ab, wie gut wir die biologische Zielplattform verstehen: Den menschlichen Organismus.
 
@@ -373,10 +389,12 @@ Der Erfolg von Perception Engineering hängt fundamental davon ab, wie gut wir d
 Um VR-Systeme gesundheitsschonend zu gestalten, müssen wir das visuelle und vestibuläre System verstehen.
 
 Design ohne Rücksicht auf die menschliche Physiologie führt unweigerlich zu **VR-Sickness** und Abbruch der Immersion. Wir betrachten den Körper als ein System, das durch "Reverse Engineering" entschlüsselt werden muss [LaValle, 2019].
+
 ![Image](img/Gemini_Generated_Image_63k1ua63k1ua63k1.png)
 
 ---
 <!-- _class: img-right -->
+
 # Der Lichtweg im Auge
 Licht tritt durch die **Cornea** (Hornhaut) ein, wird durch die Linse fokussiert und trifft auf die **Retina**.
 
@@ -391,6 +409,7 @@ In VR müssen Displays die **Akkommodation** (Fokussierung der Linse) künstlich
 # Begriffserklärung: Retina & Cornea
 > **Cornea:** Die klare, vordere Schicht des Auges (Hornhaut).
 > **Retina:** Die Netzhaut im Hintergrund des Auges, die das Licht in elektrische Signale für das Gehirn umwandelt.
+
 ![Image](img/Gemini_Generated_Image_s18fxns18fxns18f.png)
 
 ---
@@ -414,6 +433,7 @@ Zusätzlich müssen monokulare Tiefenhinweise wie Texturgradienten, Verdeckung u
 
 ---
 <!-- _class: img-right -->
+
 # Farbwahrnehmung und Realismus
 Das menschliche Auge interpretiert Wellenlängen; VR-Displays mischen RGB-Werte (Rot, Grün, Blau), um dieses Spektrum zu imitieren.
 
@@ -421,6 +441,7 @@ In der Geovisualisierung ist die Farbtreue für die Interpretation von thematisc
 
 ![image](img/LaValle-Figure-5.12.jpg)
 ###### LaValle-Figure-5.12
+
 ---
 <!-- _class: structural img-right -->
 # Augenbewegungen und Optimierung
@@ -429,12 +450,14 @@ In der Geovisualisierung ist die Farbtreue für die Interpretation von thematisc
 Modernes **Foveated Rendering** nutzt das Wissen über die geringe Sehschärfe in der Peripherie, um Rechenleistung zu sparen.
 ![image](img/LaValle-Figure-5.15.jpg)
 ###### Saccaden nach LaValle-Figure-5.15
+
 ---
 <!-- _class: fullscreen -->
-![Image](img/LaValle-Figure-5.16.jpg)
+
 ##### The fractal appears to be moving until you carefully fixate on a single part to verify that it is not.
 ###### LaValle-Figure-5.12
 
+![Image](img/LaValle-Figure-5.16.jpg)
 
 ---
 
@@ -472,6 +495,7 @@ Modernes **Foveated Rendering** nutzt das Wissen über die geringe Sehschärfe i
 -   Dies ist laut **LaValle** entscheidend, um bei extrem hohen Auflösungen die notwendigen Bildraten (fps) zu erreichen.
 
 ---
+
 # Voraussetzungen & Herausforderungen
 
 **Technologie: Eye-Tracking**
@@ -493,10 +517,12 @@ Räumliche Wahrnehmung in VR ist nicht identisch mit der Wahrnehmung am Desktop.
 
 ---
 <!-- _class: structural img-right -->
+
 # Das vestibuläre System: Der Gleichgewichtssinn
 Das Innenohr registriert Beschleunigungen und die Orientierung des Kopfes im Raum [LaValle, 2019]. Es fungiert als biologisches Inertialsystem (IMU).
 
 Störungen dieses Systems in VR führen zu schwerwiegenden physiologischen Reaktionen.
+
 ![Image](img/Gemini_Generated_Image_ff8qz9ff8qz9ff8q.png)
 
 ---
@@ -508,10 +534,12 @@ VR-Sickness entsteht meist durch "Mismatched Motion": Das Auge sieht Bewegung, a
 
 ---
 <!-- _class: img-right -->
+
 # Gesundheitsschutz durch restriktive Gestaltung
 VR-Nutzende müssen Bewegung im virtuellen Raum restriktiv gestalten.
 
 **Teleportation** ist oft sicherer als fließende Navigation, da sie keine vestibulären Konflikte provoziert [LaValle, 2019]. Statische Referenzrahmen (z.B. ein virtuelles Cockpit) helfen dem Gehirn.
+
 ![Image](img/teleportation.png)
 
 ---
@@ -583,6 +611,7 @@ Führungen (**Guided Tours**) durch das Modell reduzieren die Belastung für Nov
 <!-- _class: fullscreen -->
 # Begriffserklärung: Scaffolding
 ## Wörtlich "Gerüstbau". Gemeint ist die Unterstützung von Lernenden durch Hilfestellungen (wie Pfeile oder Erklärungen), die nach und nach abgebaut werden, wenn der Nutzer sicherer wird.
+
 ![Image](img/Gemini_Generated_Image_s8d5pss8d5pss8d5.png)
 
 ---
@@ -624,23 +653,25 @@ Dies hält die Kapazitäten im HMD frei für die räumliche Interaktion. Vorbere
 # Definition und Wahrnehmung
 
 **Das Phänomen nach LaValle (2019)**
-*   Steven LaValle beschreibt das *Uncanny Valley* als eine abrupte Akzeptanzlücke.
-*   Zunächst steigt die Akzeptanz mit zunehmendem Realismusgrad.
-*   Sobald eine Figur jedoch „fast menschlich“ aussieht, aber kleine Unperfektheiten aufweist, fällt die Akzeptanz drastisch ab.
+-   Steven LaValle beschreibt das *Uncanny Valley* als eine abrupte Akzeptanzlücke.
+-   Zunächst steigt die Akzeptanz mit zunehmendem Realismusgrad.
+-   Sobald eine Figur jedoch „fast menschlich“ aussieht, aber kleine Unperfektheiten aufweist, fällt die Akzeptanz drastisch ab.
 
 ---
 **Die Assoziation**
 <!-- _class: img-right -->
-![Image](img/Gemini_Generated_Image_l89xmql89xmql89x.png)
+
 > LaValle (2019) merkt an, dass Nutzer solche Figuren oft nicht als Menschen, sondern als „Zombies“ oder „sprechende Leichen“ (*talking cadavers*) wahrnehmen, was ein Gefühl des Unbehagens (*uneasy*) auslöst.
+
+![Image](img/Gemini_Generated_Image_l89xmql89xmql89x.png)
 
 ---
 
 # Die Plausibilitätsillusion (Plausibility Illusion)
 
 **Realismus vs. Glaubwürdigkeit nach Dörner et al. (2013)**
-*   Dörner et al. betonen, dass für die *Suspension of Disbelief* (das willentliche Ausblenden des Unglaubens) die Glaubwürdigkeit der Ereignisse entscheidender ist als der reine visuelle Fotorealismus.
-*   **Der Bruch der Illusion:** Ein visuell perfekter Avatar, der jedoch nur in simplen Phrasen spricht oder dessen Lippen nicht synchron sind, zerstört die Illusion sofort.
+-   Dörner et al. betonen, dass für die *Suspension of Disbelief* (das willentliche Ausblenden des Unglaubens) die Glaubwürdigkeit der Ereignisse entscheidender ist als der reine visuelle Fotorealismus.
+-   **Der Bruch der Illusion:** Ein visuell perfekter Avatar, der jedoch nur in simplen Phrasen spricht oder dessen Lippen nicht synchron sind, zerstört die Illusion sofort.
 ---
 
 **Schlussfolgerung**
@@ -651,11 +682,11 @@ Dies hält die Kapazitäten im HMD frei für die räumliche Interaktion. Vorbere
 # Technische Ursachen: Die Animations-Lücke
 
 **Herausforderungen nach Dörner et al. (2013) und Hale & Stanney (2015)**
-*   **Komplexität:** Hale & Stanney (2015) weisen darauf hin, dass die Nachbildung subtiler nonverbaler Kommunikation (Mikromimik) extrem rechenaufwendig ist.
+-   **Komplexität:** Hale & Stanney (2015) weisen darauf hin, dass die Nachbildung subtiler nonverbaler Kommunikation (Mikromimik) extrem rechenaufwendig ist.
 ---
 ## Weitere Herausforderungen
-*   **Motion Capture Grenzen:** Dörner et al. (2013) erklären, dass aufgezeichnete Bewegungen (*Motion Capture*) zwar realistisch sind, aber schwer an interaktive Situationen (z. B. Blickkontakt halten während der Nutzer sich bewegt) angepasst werden können.
-*   **Inverse Kinematik:** Die Echtzeit-Berechnung von Gelenkstellungen wirkt oft roboterhaft und verstärkt den "Uncanny"-Effekt.
+-   **Motion Capture Grenzen:** Dörner et al. (2013) erklären, dass aufgezeichnete Bewegungen (*Motion Capture*) zwar realistisch sind, aber schwer an interaktive Situationen (z. B. Blickkontakt halten während der Nutzer sich bewegt) angepasst werden können.
+-   **Inverse Kinematik:** Die Echtzeit-Berechnung von Gelenkstellungen wirkt oft roboterhaft und verstärkt den "Uncanny"-Effekt.
 
 ---
 <!-- _class: fullscreen -->
@@ -666,18 +697,18 @@ Dies hält die Kapazitäten im HMD frei für die räumliche Interaktion. Vorbere
 # Design-Strategie: Abstraktion
 
 **Empfehlungen nach LaValle (2019)**
-*   Um das Uncanny Valley zu umgehen, empfiehlt LaValle (2019) oft den bewussten Verzicht auf den Versuch, die Realität 1:1 zu kopieren (*Universal Simulation Principle*).
-*   **Stilisierung:** Cartoon-artige oder abstrahierte Charaktere werden vom Gehirn anders bewertet.
-*   Da der Nutzer hier keine menschliche Perfektion erwartet, werden Abweichungen im Verhalten eher verziehen. Die Erfahrung wird dadurch oft konsistenter und angenehmer.
+-   Um das Uncanny Valley zu umgehen, empfiehlt LaValle (2019) oft den bewussten Verzicht auf den Versuch, die Realität 1:1 zu kopieren (*Universal Simulation Principle*).
+-   **Stilisierung:** Cartoon-artige oder abstrahierte Charaktere werden vom Gehirn anders bewertet.
+-   Da der Nutzer hier keine menschliche Perfektion erwartet, werden Abweichungen im Verhalten eher verziehen. Die Erfahrung wird dadurch oft konsistenter und angenehmer.
 
 ---
 
 # Soziale Interaktion & Avatare
 
 **Bedeutung für Social VR (Hale & Stanney, 2015)**
-*   In kollaborativen Umgebungen repräsentieren Avatare den Nutzer.
-*   Hale & Stanney (2015) betonen, dass Avatare, die im Uncanny Valley liegen, das Vertrauen und die soziale Bindung in virtuellen Teams stören können.
-*   **Best Practice:** Lieber ein einfacher, sympathischer Avatar als ein hochdetaillierter, der "gruselig" wirkt. Die soziale Präsenz hängt stärker von der synchronen Stimme und Gestik ab als von der Texturauflösung der Haut.
+-   In kollaborativen Umgebungen repräsentieren Avatare den Nutzer.
+-   Hale & Stanney (2015) betonen, dass Avatare, die im Uncanny Valley liegen, das Vertrauen und die soziale Bindung in virtuellen Teams stören können.
+-   **Best Practice:** Lieber ein einfacher, sympathischer Avatar als ein hochdetaillierter, der "gruselig" wirkt. Die soziale Präsenz hängt stärker von der synchronen Stimme und Gestik ab als von der Texturauflösung der Haut.
 
 ---
 
@@ -732,6 +763,7 @@ Es bildet die Grundlage für die Korrektheit der Perspektive. Ungenaues Tracking
 # Begriffserklärung: 6 DoF
 > **6 Degrees of Freedom** 6 DOF bedeutet, dass das System sechs Arten von Bewegungen erkennt:
 Drehen des Kopfes nach oben/unten, links/rechts, Seite/Seite UND die tatsächliche Bewegung im Raum (vor/zurück, links/rechts, hoch/runter).
+
 ![Image](img/Gemini_Generated_Image_suqp7gsuqp7gsuqp.png)
 
 ---
@@ -775,9 +807,11 @@ video {
 
 ---
 <!-- _class: img-right-->
-![Image](img/gimbal-lock.png)
+
 # Begriffserklärung: Gimbal Lock
 > Ein mathematisches Problem bei der Nutzung von Winkeln (X, Y, Z), bei dem zwei Drehachsen aufeinander liegen und man eine Richtung zur Steuerung verliert. Es fühlt sich an wie ein "Einfrieren" der Bewegung.
+
+![Image](img/gimbal-lock.png)
 
 ---
 
@@ -805,14 +839,14 @@ Dies führt dazu, dass der Norden in VR langsam von der realen Nordrichtung abwe
 
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_2jmv662jmv662jmv.png)
 
 # Begriffserklärung: IMU
 > Eine **Inertial Measurement Unit** ist ein kleiner Sensor (wie im Handy), der Beschleunigung und Drehung misst. Er ist sehr schnell, wird aber mit der Zeit ungenau, wenn er nicht korrigiert wird.
 
+![Image](img/Gemini_Generated_Image_2jmv662jmv662jmv.png)
+
 ---
 <!-- _class: img-right-->
-
 
 # SLAM: Simultaneous Localization and Mapping
 Das System kartiert eine unbekannte Umgebung und bestimmt gleichzeitig die eigene Position darin [LaValle, 2019].
@@ -859,12 +893,12 @@ Kombination von IMU (schnell) und optischen Sensoren (stabil) [LaValle, 2019]. E
 ---
 <!-- _class: img-right-->
 
-![Image](img/Gemini_Generated_Image_239h6k239h6k239h.png)
-
 # Tracking von Controllern und Händen
 - Ermöglicht die Interaktion / Selektion
 - Gestensteuerung reduziert Buttons.
 - Haptisches Feedback bei Controllern gibt Rückmeldung über Berührung virtueller Objekte [LaValle, 2019].
+
+![Image](img/Gemini_Generated_Image_239h6k239h6k239h.png)
 
 ---
 ## Anatomische Zielsetzung des Hand-Tracking
@@ -873,22 +907,22 @@ Das Ziel des Hand-Trackings ist die digitale Abbildung einer hochkomplexen Biome
 
 Nach **Grimm et al.** verfügt die menschliche Hand über **27 Freiheitsgrade (DOF)**:
 
-* **6 DOF:** Position und Orientierung des Handrückens (Handwurzel).
-* **21 DOF:** Die einzelnen Fingergelenke (Phalangen).
+- **6 DOF:** Position und Orientierung des Handrückens (Handwurzel).
+- **21 DOF:** Die einzelnen Fingergelenke (Phalangen).
 
 Die Herausforderung besteht darin, diese 27 Variablen in Echtzeit und mit hoher Präzision zu quantifizieren.
 
 ---
 <!-- _class: img-right-->
 
-![Image](img/Gemini_Generated_Image_q2q6zgq2q6zgq2q6.png)
-
 ## Kamerabasiertes / Optisches Tracking (Markenlos)
 Dies ist der De-facto-Standard in modernen Consumer-Headsets (z. B. Oculus Quest, Leap Motion).
 
-* **Basis:** Computer Vision (CV) und Machine Learning (ML).
-* **Input:** RGB- oder Infrarot-Videostreams.
-* **Workflow:** **Reimer et al.** beschreiben den Prozess am Beispiel des *MediaPipe-Frameworks*.
+- **Basis:** Computer Vision (CV) und Machine Learning (ML).
+- **Input:** RGB- oder Infrarot-Videostreams.
+- **Workflow:** **Reimer et al.** beschreiben den Prozess am Beispiel des *MediaPipe-Frameworks*.
+
+![Image](img/Gemini_Generated_Image_q2q6zgq2q6zgq2q6.png)
 
 ---
 
@@ -921,7 +955,7 @@ Ein Hauptproblem von RGB-Kameras ist das Fehlen von Tiefeninformationen (Z-Achse
 ---
 <!-- _class: img-right-->
 
-![Image](img/Gemini_Generated_Image_bw8jawbw8jawbw8j.png)
+
 ### RGB-System
 ### MediaPipe Workflow: Schritt 1 - Detektion
 
@@ -935,13 +969,15 @@ p, li, ul, ol {
 
 Ein neuronales Netz analysiert den Frame und extrahiert die Handregion.
 Es werden **21 Landmarks** (Schlüsselpunkte) identifiziert:
-* Handwurzel (Wrist)
-* Fingerknöchel (MCP)
-* Fingerspitzen (Tips) und Zwischengelenke (PIP/DIP)
+- Handwurzel (Wrist)
+- Fingerknöchel (MCP)
+- Fingerspitzen (Tips) und Zwischengelenke (PIP/DIP)
 
 **Output des Netzes:**
 1.  **2D-Landmarks:** $x, y$ Koordinaten im Pixelraum des Bildes.
 2.  **3D-Landmarks:** Räumliche Position relativ zum geometrischen Zentrum der Hand (oft normiert).
+
+![Image](img/Gemini_Generated_Image_bw8jawbw8jawbw8j.png)
 
 ---
 
@@ -973,10 +1009,10 @@ Zur Platzierung der Hand im virtuellen Raum (Abstand $d_R$) wird der **Strahlens
 
 $$d_R = f \cdot \frac{l_{sr}}{l_{sm}}$$
 
-* $d_R$: Distanz zur Kamera (Depth).
-* $f$: Brennweite der Kamera (Focal Length).
-* $l_{sr}$: Reale (bzw. geschätzte) Größe der Hand (Size Real).
-* $l_{sm}$: Größe der Hand im Kamerabild (Size Monitor/Sensor).
+- $d_R$: Distanz zur Kamera (Depth).
+- $f$: Brennweite der Kamera (Focal Length).
+- $l_{sr}$: Reale (bzw. geschätzte) Größe der Hand (Size Real).
+- $l_{sm}$: Größe der Hand im Kamerabild (Size Monitor/Sensor).
 
 ---
 
@@ -992,11 +1028,13 @@ $$d_R = f \cdot \frac{l_{sr}}{l_{sm}}$$
 
 ---
 <!-- _class: img-right-->
-![Image](img/Head-mounted_display_and_wired_gloves_Ames_Research_Center.jpg)
+
 ## Mechanisches Tracking (Datenhandschuhe)
 Ältere, aber extrem präzise Verfahren zur Messung der **Fingerkrümmung**.
+![Image](img/Head-mounted_display_and_wired_gloves_Ames_Research_Center.jpg)
 
 ---
+
 **Verfahren:** 
 - **Lichtwellenleiter (z. B. Data Glove):**
     - Glasfasern auf den Fingern.
@@ -1006,30 +1044,36 @@ $$d_R = f \cdot \frac{l_{sr}}{l_{sm}}$$
 - **Exoskelette:**
     - Messung über Potentiometer oder Seilzüge.
 
+
+
 ---
 
 > **Wichtig:** Diese Sensoren messen nur die Finger relativ zur Hand. Für die 6 DOF des Handrückens im Raum ist ein externer Tracker (optisch/magnetisch) zwingend erforderlich.
 
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_oeunp0oeunp0oeun.png)
 
 
 ## Optisches Tracking mit Marken
 Einsatz externer Kamerasysteme zur Erfassung definierter Punkte.
 
+![Image](img/Gemini_Generated_Image_oeunp0oeunp0oeun.png)
+
+
 ---
 <!-- _class: img-right-->
-![Image](img/Point_Light_Display_of_ASL_sentence.gif)
+
 ***Passive Marken (Retroreflexion):***
-* Klassisches Motion Capture (MoCap).
-* Kugeln reflektieren IR-Licht; Position wird trianguliert.
+- Klassisches Motion Capture (MoCap).
+- Kugeln reflektieren IR-Licht; Position wird trianguliert.
+
+![Image](img/Point_Light_Display_of_ASL_sentence.gif)
 
 ---
 
 **Aktive Marken (LEDs):**
-* Handschuhe mit verbauten Leuchtdioden (z. B. MIT LED Glove).
-* **Identifikation:** Sequenzielle Blinkmuster erlauben die Unterscheidung einzelner Finger auch bei Überlappung.
+- Handschuhe mit verbauten Leuchtdioden (z. B. MIT LED Glove).
+- **Identifikation:** Sequenzielle Blinkmuster erlauben die Unterscheidung einzelner Finger auch bei Überlappung.
 
 ---
 
@@ -1061,13 +1105,15 @@ Unabhängig vom Verfahren limitieren folgende Faktoren die Visualisierung:
 
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_fhe86lfhe86lfhe8.png)
+
 
 # Eye-Tracking in VR
 Erfassung der Blickrichtung zur Optimierung (Foveated Rendering).
 
 **Nutzeranalyse:** Worauf schauen Stadtplaner zuerst? [LaValle, 2019]. Ermöglicht Blick-basierte Interaktion (Selektion durch Anschauen).
 ---> Siehe kapitel [Biologie](#biologische-zielplattform-der-organismus)
+
+![Image](img/Gemini_Generated_Image_fhe86lfhe86lfhe8.png)
 
 ---
 
@@ -1109,11 +1155,13 @@ Das Auge kann Objekte in wenigen Zentimetern Entfernung nicht fokussieren. Linse
 
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_1slxtl1slxtl1slx.png)
+
 # Fresnel-Linsen
 Einsatz in den meisten modernen HMDs, um Gewicht zu reduzieren [LaValle, 2019].
 
 **Nachteil:** Verursachen "God Rays" (Lichtstreuung) bei kontrastreichen Szenen. In Geo-Anwendungen müssen wir Kontraste daher sorgfältig wählen.
+
+![Image](img/Gemini_Generated_Image_1slxtl1slxtl1slx.png)
 
 ---
 
@@ -1141,11 +1189,13 @@ Linsen erzeugen kissenförmige Verzerrungen. Das Bild wird am Display vorab **to
 
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_y99rzhy99rzhy99r.png)
+
 # Auflösung und Field of View (FoV)
 Ein hohes **FoV (>100 Grad)** ist für Immersion entscheidend [LaValle, 2019].
 
 Die Auflösung wird in **Pixel pro Grad (PPD)** gemessen. In der VR bestimmt PPD, ab welcher Entfernung Text auf Schildern lesbar ist.
+
+![Image](img/Gemini_Generated_Image_y99rzhy99rzhy99r.png)
 
 ---
 
@@ -1205,12 +1255,14 @@ Je mehr ich an einer VR beteiligt bin, desto immersiver fühlt es sich an.
 
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_iop5m4iop5m4iop5.png)
+
 # 1. Die Gaze-Methode (Blicksteuerung)
 
 Diese Methode nutzt die Blickrichtung als Zeiger:
 - Eye-Tracking
 - Kopf-Orientierung
+
+![Image](img/Gemini_Generated_Image_iop5m4iop5m4iop5.png)
 
 ---
 
@@ -1220,18 +1272,22 @@ Diese Methode nutzt die Blickrichtung als Zeiger:
 
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_31pb6x31pb6x31pb.png)
+
 **Nachteile & Herausforderungen der Gaze-Methode**
 - **Midas-Touch-Problem (nach Dörner et al.):** Da wir ständig wohin blicken müssen, ist es schwierig zu unterscheiden, ob der Nutzer ein Objekt nur betrachten oder auswählen möchte. Ohne expliziten Auslöser (z. B. Zwinkern, Button) wird unbeabsichtigt alles "aktiviert", was angesehen wird.
 - **Ermüdung:** Längere Nutzung zur Steuerung kann die Augenmuskulatur belasten.
 
+![Image](img/Gemini_Generated_Image_31pb6x31pb6x31pb.png)
+
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_wr2arvwr2arvwr2a.png)
+
 # 2. Controller-basierte Methoden
 (z. B. Ray-Casting / Zeigestrahl)
 
 Der Nutzer hält ein physisches Gerät (Flystick, Wand, Game-Controller), dessen Position und Tasten genutzt werden.
+
+![Image](img/Gemini_Generated_Image_wr2arvwr2arvwr2a.png)
 
 ---
 
@@ -1248,10 +1304,12 @@ Der Nutzer hält ein physisches Gerät (Flystick, Wand, Game-Controller), dessen
 
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_t7w9xot7w9xot7w9.png)
+
 # 3. Hand-Gesten-Methode (Natural Interaction)
 
 Nutzung der bloßen Hände (Virtual Hand) ohne physische Controller, erfasst durch Kameras (z. B. Leap Motion, Quest, RGB-Kameras).
+
+![Image](img/Gemini_Generated_Image_t7w9xot7w9xot7w9.png)
 
 ---
 
@@ -1319,13 +1377,15 @@ Controller eignen sich nach **LaValle** gut für längere Sitzungen (weniger Erm
 
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_e76xroe76xroe76x.png)
+
 # Voodoo Doll Interaktion
 ## Exozentrische Manipulation durch Skalierung
 
 **Konzept (nach Dörner et al.)**
 - **Definition:** Die Voodoo-Doll-Technik ist eine exozentrische Interaktionstechnik, die primär auf dem Prinzip der Skalierung basiert.
 - **Abgrenzung zur WIM:** Im Gegensatz zur *World-In-Miniature* (WIM), bei der die gesamte Umgebung verkleinert wird, werden hier laut **Dörner et al.** nur ausgewählte Objekte skaliert und dupliziert.
+
+![Image](img/Gemini_Generated_Image_e76xroe76xroe76x.png)
 
 ---
 
@@ -1366,23 +1426,27 @@ Ermöglicht die **Selektion** und Manipulation von Objekten, die im realen Maßs
   - *Voodoo Doll:* Präzise **Manipulation** eines spezifischen Objekts. Der Nutzer hält eine handliche Kopie ("Puppe") in der Hand; jede Änderung daran wirkt sich sofort auf das (oft entfernte oder riesige) Original aus.
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_fv37oefv37oefv37.png
-)
 
 # Das "Gorilla Arms"-Phänomen
 Ermüdung der Armmuskulatur durch Arbeiten in der Luft ohne Stütze [LaValle, 2019].
 
 **Strategie:** UI-Elemente so platzieren, dass sie aus dem Handgelenk bedienbar sind. Remote-Interaktion nutzen.
 
+![Image](img/Gemini_Generated_Image_fv37oefv37oefv37.png
+)
+
+
 ---
 <!-- _class: img-right-->
-![Image](img/Gemini_Generated_Image_qddv04qddv04qddv.png)
+
 
 
 # Folgerungen für das Design von 3D-Interfaces
 Vermeidung von 2D-Menüs, die "am Kopf kleben". 
 
 **"Diegetic UI":** Das Interface ist Teil der Welt (z.B. ein Klemmbrett) [Mulders et al., 2020]. Erhöht Akzeptanz in der Stadtplanung.
+
+![Image](img/Gemini_Generated_Image_qddv04qddv04qddv.png)
 
 ---
 
@@ -1469,13 +1533,70 @@ video {
 ---
 
 # Powerwalls
-Großflächige, ebene Projektionswände. Fokus auf extrem hohe Auflösung für Analyse (LIDAR-Punktwolken). Weniger immersiv, aber besser für Textarbeit und GIS-Analysen.
+Großflächige, ebene Projektionswände. Fokus auf extrem hohe Auflösung für Analyse (z. B. LIDAR-Punktwolken). Weniger immersiv, aber besser für Textarbeit und GIS-Analysen.
 
 ---
+<!-- _class: fullscreen -->
+
+![Image](img/Gemini_Generated_Image_nqsk2inqsk2inqsk.png)
+
+---
+<!-- _class: structural-->
 
 # Desktop- und Mobile VR
 - **Desktop-VR:** 3D-Engines am Monitor. Geringe Immersion, hohe Zugänglichkeit [Mulders et al., 2020].
 - **Mobile VR:** Smartphones (Cardboard). Ermöglicht VR-Exkursionen ohne teures Equipment.
+
+---
+# Desktop VR (Nicht-immersive VR)
+## Stereoskopie am Bildschirmarbeitsplatz
+
+**Konzept und Einordnung (nach Dörner et al.)**
+- **Definition:** Desktop-Systeme nutzen herkömmliche Monitore zur Darstellung. Der Nutzer blickt wie durch ein "Fenster" in die virtuelle Welt, bleibt aber visuell in der realen Umgebung verankert.
+- **Klassifizierung:** Solche Systeme werden oft als **nicht-immersive VR** bezeichnet, da keine vollständige visuelle Isolation von der Außenwelt (wie bei HMDs) stattfindet.
+
+---
+
+**Technische Umsetzung: Aktiv-Stereo (nach Dörner et al.)**
+- **Shutterbrillen:** Zur 3D-Darstellung werden aktive Brillen genutzt, die synchron zum Monitor abwechselnd das linke und rechte Auge abdunkeln (zeitliches Multiplexing).
+- **Hardware-Anforderung:** Der Monitor muss eine hohe Bildwiederholrate (mindestens **120 Hz**) bieten, um jedem Auge flimmerfreie 60 Bilder pro Sekunde zu liefern.
+- **Head-Tracking:** Um dennoch einen starken räumlichen Eindruck zu erzeugen, wird oft die Kopfposition verfolgt, um die Perspektive auf dem Bildschirm dynamisch anzupassen (Bewegungsparallaxe).
+
+---
+<!-- _class: fullscreen -->
+
+![Image](img/Desktop-VR.png)
+
+---
+# Mobile VR & Standalone-Systeme
+## Entwicklung und Eigenschaften
+
+**Grundlagen und Entstehung**
+- **Smartphone-Revolution (nach LaValle):** Die aktuelle Generation der VR-Systeme wurde maßgeblich durch Fortschritte in der Smartphone-Technologie (Displays, Sensoren, Rechenleistung) ermöglicht.
+
+---
+
+## Demokratisierung (nach LaValle)
+Systeme wie *Google Cardboard* oder *Samsung Gear VR* (Smartphone-Halterungen) haben VR für Millionen von Menschen zugänglich gemacht, ähnlich wie die Verbreitung von Webbrowsern.
+
+---
+<!-- _class: fullscreen -->
+
+![Image](img/Assembled_Google_Cardboard_VR_mount.jpg)
+
+###### Von othree - Google Cardboard, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=40703922
+
+---
+
+## Mobilität (nach Dörner et al.)
+Mobile HMDs ermöglichen den Aufbau von Visualisierungssystemen, die nicht stationär gebunden sind, und bieten flexible Einsatzmöglichkeiten.
+
+---
+
+**Vom 3-DoF zum 6-DoF (nach Pinheiro de Sousa et al.)**
+- **Frühe Systeme:** Ältere mobile Lösungen wie die *Samsung GearVR* waren oft auf **3-DoF** (nur Orientierungstracking) limitiert.
+- **Moderne Standalone-Systeme:** Aktuelle Headsets (wie *Oculus Quest*) nutzen **Inside-Out-Tracking** (SLAM-basiert), um volle **6-DoF** (Position und Orientierung) ohne externe Sensoren zu ermöglichen.
+- = "erweitertes Smartphone" 
 
 ---
 
@@ -1486,6 +1607,7 @@ Großflächige, ebene Projektionswände. Fokus auf extrem hohe Auflösung für A
 | CAVE | Hoch | Sehr hoch | Team-Planung |
 | Powerwall | Mittel | Hoch | Datenanalyse |
 | Desktop | Niedrig | Mittel | Aufbereitung |
+| Cardboard | Gering | Gering | Reine Visualisierung |
 
 ---
 
@@ -1509,21 +1631,65 @@ Großflächige, ebene Projektionswände. Fokus auf extrem hohe Auflösung für A
 3. Skizzieren Sie die Systemvergleichstabelle.
 
 ---
+<!-- _class: structural-->
 
 # Zukunft der Geovisualisierung
-Wo führt uns die Verschmelzung in den nächsten zehn Jahren hin?
+Wo führt uns die Virtual-Reality in den nächsten (zehn) Jahren hin?
 
 ---
 
 # XR-Unification
 Die Grenzen zwischen VR, AR und MR werden durch universelle Hardware verschwinden [LaValle, 2019]. **XR** wird zum Standardbegriff.
 
-Innovationen wie **Metalenses** könnten HMDs auf Brillengröße schrumpfen lassen.
+Innovationen wie **Waveguides und HOEs** könnten HMDs auf Brillengröße schrumpfen lassen.
+
+---
+
+# Zunkunft: XR als neuer Standardbegriff
+
+- **Nach LaValle** werden Hardware-Unterschiede bedeutungslos, da moderne Geräte oft beide Modi beherrschen (z. B. VR-Headsets mit Kameras für Pass-Through).
+- Der Begriff **XR** (Extended Reality oder X Reality) etabliert sich daher als vereinheitlichender Oberbegriff für das gesamte Spektrum.
+
+---
+
+**Universelle Hardware**
+- **Pass-Through:** Nutzung von Kameras, um die Außenwelt auf einem geschlossenen Display anzuzeigen (**nach LaValle**).
+- **See-Through:** Optische Überlagerung durch halbtransparente Spiegel oder Prismen (**nach Dörner et al.**).
+
+---
+
+# Miniaturisierung durch Optik (Metalenses/Waveguides)
+
+**Das Problem der Baugröße**
+- Klassische HMDs sind klobig, da eine Linse einen bestimmten physikalischen Abstand (Brennweite) zum Display benötigt, damit das Auge das Bild scharf fokussieren kann (**nach LaValle**).
+
+---
+
+**Die Lösung: Neue optische Technologien**
+- Innovationen (in der Aussage als *Metalenses* bezeichnet) ermöglichen den Bau von Headsets in **Brillengröße**.
+- In den Quellen werden hierfür spezifisch **Waveguides** (Wellenleiter) und **Holographische Optische Elemente (HOE)** als Schlüsseltechnologien genannt (**nach LaValle** und **Dörner et al.**).
+
+---
+
+# Technische Funktionsweise der flachen Optik
+
+**Eliminierung des Abstands**
+> Anstatt Licht durch dicke Linsen und Luftabstand zu projizieren, wird das Licht effizienter gelenkt.
+
+---
+
+## Waveguides (nach LaValle)
+ Licht wird von einem seitlichen Microdisplay in eine dünne Glasstruktur eingekoppelt, intern transportiert und direkt vor dem Auge ausgekoppelt.
+
+## HOEs (nach Dörner et al.)
+Spezielle Folien oder Beschichtungen fungieren als flache Spiegel/Linsen, die Lichtstrahlen umlenken, ohne Platz zu beanspruchen.
+
+**Der notwendige Bauraum schrumpft drastisch, da der Strahlengang in das Brillenglas integriert wird ("Near-Eye Displays" **nach LaValle**).**
 
 ---
 
 # Deurbanisierung durch VR
-Telepräsenz ermöglicht hochwertiges Arbeiten unabhängig vom Wohnort [LaValle, 2019].
+>Telepräsenz ermöglicht hochwertiges Arbeiten unabhängig vom Wohnort [LaValle, 2019].
 
 **Strategisch:** XR könnte den Urbanisierungs-Trend umkehren. Geovisualisierer müssen Modelle für dezentrale Strukturen entwickeln.
 
